@@ -241,7 +241,7 @@ function resetTimer () {
 /* source:  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal2 */
  function gameOver () {
   modal.style.display = 'block';
-  modalText.textContent = "Player Time: " + minutes + " : " + seconds + " \nPlayer Moves " + moves + " Player Star Rating " + " starNumber";
+  modalText.textContent = "Player Time: " + minutes + ":" + seconds + "; " + " \nPlayer Moves " + moves + "; " + " Player Star Rating " +  starNumber;
   newGame();
   }
 

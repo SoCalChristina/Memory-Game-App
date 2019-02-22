@@ -1,14 +1,17 @@
 
 @charset "utf-8";
 /* Styles CSS Document */
-* {
- box-sizing: border-box;
- margin: 0;
- padding: 0;
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
 }
 
 body {
-  background: #ffffff url('../img/geometry2.png'); /* Background pattern from Subtle Patterns */
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   width: 100vw;
@@ -143,7 +146,7 @@ li.card.mismatch {
 }
 
 .deck .card.show {
-  font-size: 80%;
+  font-size: 2em;
   background: #F4C430;
   box-shadow: 5px 6px 14px 0px rgba(46, 61, 73, 0.5);
 }
@@ -151,10 +154,9 @@ li.card.mismatch {
 .deck .card.match {
   cursor: default;
   background: #33cc33;
-  font-size: 33px;
+  font-size: 2em;
   pointer-events: none;
   box-shadow: 5px 6px 14px 0px rgba(46, 61, 73, 0.5);
-  font-size: 33px;
   animation-name: rubberBand;
   -webkit-backface-visibility: visible !important;
   backface-visibility: visible !important;
@@ -199,7 +201,7 @@ li.card.mismatch {
   margin: auto;
   border: 2px solid #777;
   border-radius: 10px;
-  font-size: 21px;
+  font-size: 1.2em;
   text-align: center;
   width: 100%;
   background-color: #3c3;
@@ -219,9 +221,9 @@ li.card.mismatch {
   background-color: #ccc;
   border-radius: 8px;
   border-color: #073446;
-  padding: 5%;
+  padding: 1%;
   margin-top: 5%;
-  font-size: 20%;
+  font-size: 1em;
   cursor: pointer;
   left: 45%;
 }
@@ -333,8 +335,8 @@ color: #fff;
 
 /* Modal styles */
 .modal {
-    padding-top: 30px;
-    padding-bottom: 90px;
+    padding-top: 5%;
+    padding-bottom: 20%;
     top: 10%;
     left: 10%;
     right: 10%;
@@ -342,15 +344,15 @@ color: #fff;
 }
 
 .modalContent {
-    padding: 15px;
+    padding: 1em;
     margin: auto;
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .play-again {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font-size: 16px;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  font-size: 2em;
   cursor: pointer;
   left: 40%;
   }
