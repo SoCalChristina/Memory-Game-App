@@ -1,7 +1,7 @@
 # Memory-Game-App
 This is a browser-based card matching game (also known as Concentration).  
 
-![Image of the Memory Game App](https://github.com/SoCalChristina/Memory-Game-App/memory-game.png)
+![Image of the Memory Game App](memory-game-screenshot.png)
 
 ## Game Requirements
 The game requires a web browser.
