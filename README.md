@@ -40,7 +40,7 @@ The Memory Game App incorporates @keyframes and JavaScript for the following ani
 I'm not taking pull requests currently.
 
 #### Acknowledgements
-Built with the support of the fabulous Udacity student community
+Built with the support of the fabulous Udacity student community.   
 Many thanks in particular to Udacity Grow With Google Slack Community Tutor, @Lloan.
 
 ### Contact
